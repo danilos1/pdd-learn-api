@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/** Color shema: #FBEEC1, #BC986A, #DAAD86, #659DBD, #8D8741 **/
+
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('~animate.css/animate.min');
+
+body, html, .main {
+  background-color: #f3ded5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.main-content {
+  width: 80%;
+}
+
+.fadeInRight {
+  animation: fadeInRight;
+  animation-duration: 2.3s;
+}
