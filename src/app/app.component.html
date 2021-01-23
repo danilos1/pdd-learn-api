@@ -1,1 +1,39 @@
+<div class="navbar navbar-expand-lg p-4 justify-content-lg-between unselectable">
+  <div>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <a id="logo" href="#" style="font-weight: bold;">Pdd Learn</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="#gettingstarted">Початок роботи</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#whatcanido">Що я можу</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Допомога</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Про нас</a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a [routerLink]="['/login']" class="nav-link">Увійти</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Реєстрація</a>
+      </li>
+    </ul>
+  </div>
+</div>
 <app-home></app-home>
+<div id="about" class="footer">
+  <div class="footer-content justify-content-lg-between row p-4">
+    <div class="footer-item">
+
+    </div>
+  </div>
+  <p class="text-center mt-5">&#169; Copyright 2021</p>
+</div>
+

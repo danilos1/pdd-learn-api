@@ -1,0 +1,43 @@
+.navbar {
+  border-bottom: 10px solid #fff;
+  background: linear-gradient(90deg, rgba(144,149,60,1) 0%, rgba(159,205,152,1) 100%);
+}
+
+ul, li {
+  margin-left: 36px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#logo {
+  font-size: 32px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 1.5s ease;
+  border-radius: 10px;
+}
+
+li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #fff;
+  color: rgba(0,0,0,0.7);
+}
+
+li a:hover {
+  border-radius: 10px;
+  color:  #fff;
+  background-color:rgba(0,0,0,0.5);
+}
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  background-color: #584a3e;
+  color: #fff;
+}

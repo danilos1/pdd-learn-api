@@ -3,21 +3,96 @@
 @import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('~animate.css/animate.min');
 
 body, html, .main {
-  background-color: #f3ded5;
+  background-color: #f3ded5af;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+body {
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6  {
   font-family: 'Didact Gothic', sans-serif;
-}
-
-.main-content {
-  width: 80%;
 }
 
 .fadeInRight {
   animation: fadeInRight;
   animation-duration: 2.3s;
+}
+
+.fadeIn {
+  animation: fadeIn;
+  animation-duration: 3.7s;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(223, 166, 59, 0.747);
+  border-radius: 8px;
+}
+
+.button-options {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 9px;
+  color: #584a3e;
+  background-color: #fbeec1;
+  border: none;
+  transition: 0.5s;
+}
+
+.header {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.button-options:hover {
+  color: #fff;
+  background-color: rgb(97, 95, 90);
+}
+
+.input-options {
+  padding: 9px;
+  font-size: 19px;
+  border-radius: 15px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
 }

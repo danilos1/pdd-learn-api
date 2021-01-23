@@ -1,3 +1,4 @@
+import { HomeService } from './service/home.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pdd-learn';
+
+  constructor(private homeService: HomeService) { }
+
 }

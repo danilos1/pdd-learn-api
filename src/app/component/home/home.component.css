@@ -1,20 +1,6 @@
-.navbar {
-  border-bottom: 10px solid #fff;
-}
 
-ul, li {
-  margin-left: 36px;
-  font-size: 20px;
-}
-
-.tagline {
-  padding: 5%;
-  color: #fff;
-  background-image: url('D:\Pdd_Learn_Project\pdd-learn-api\src\assets\header.jpg');
-  /* background-color: #659DBD; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 0 30px rgba(0,0,0,0.8);
+.container {
+  margin-top: 100px;
 }
 
 #title {
@@ -23,32 +9,27 @@ ul, li {
 }
 
 #parking-sign {
-  width: 120px;
-  height: 110px;
+  width: 135px;
+  height: 120px;
 }
 
 .description {
   width: 45%;
 }
 
-a {
+.tagline {
+  padding: 5%;
+  height: 800px;
   color: #fff;
-  text-decoration: none;
-  transition: background-color 0.65s ease;
-  border-radius: 10px;
+  background-image: url('D:\Pdd_Learn_Project\pdd-learn-api\src\assets\header2.jpg');
+  /* background-color: #659DBD; */
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 30px rgba(0,0,0,0.8);
 }
 
-
-a:hover {
-  background-color: rgba(0,0,0,0.5);
-  border-radius: 10px;
-}
-
-.container {
-  margin-top: 100px;
-}
-
-.animated {
-  animation: fadeIn;
-  animation-duration: 3.1s;
+.footer-item p {
+  border-bottom: 1px solid black;
 }
