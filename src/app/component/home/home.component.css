@@ -4,24 +4,24 @@
 }
 
 #title {
-  font-size: 110px;
+  font-size: 130px;
   font-weight: bold;
 }
 
 #parking-sign {
-  width: 135px;
-  height: 120px;
+  width: 145px;
+  height: 130px;
 }
 
 .description {
-  width: 45%;
+  width: 60%;
 }
 
 .tagline {
   padding: 5%;
   height: 800px;
   color: #fff;
-  background-image: url('D:\Pdd_Learn_Project\pdd-learn-api\src\assets\header2.jpg');
+  background-image: url('/assets/traffic_signs.jpg');
   /* background-color: #659DBD; */
   min-height: 100%;
   background-repeat: no-repeat;

@@ -1,6 +1,6 @@
 .navbar {
   border-bottom: 10px solid #fff;
-  background: linear-gradient(90deg, rgba(144,149,60,1) 0%, rgba(159,205,152,1) 100%);
+  background: linear-gradient(90deg, rgb(144, 149, 60) 0%, rgba(159,205,152,1) 100%);
 }
 
 ul, li {
@@ -23,14 +23,14 @@ a {
 li a {
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #fff;
-  color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
 }
 
 li a:hover {
   border-radius: 10px;
-  color:  #fff;
-  background-color:rgba(0,0,0,0.5);
+  color:  rgba(0,0,0,0.7);
+  background-color: #fff;
 }
 
 .footer {

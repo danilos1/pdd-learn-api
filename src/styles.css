@@ -8,6 +8,7 @@
 
 body, html, .main {
   background-color: #f3ded5af;
+  overflow-x: hidden;
 }
 
 body {
@@ -27,7 +28,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6  {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .fadeInRight {
