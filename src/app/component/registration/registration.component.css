@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/assets/traffic_signs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  color: white;
+}
+
+.form {
+  font-family: 'Roboto Thin', sans-serif;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border: 12px solid #fff;
+  height: 45%;
+  width: 35%;
+  border-radius: 20px;
+}
+
+.form__title {
+  font-weight: bold;
+  font-size: 35px;
+}

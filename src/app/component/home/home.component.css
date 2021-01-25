@@ -30,6 +30,16 @@
   box-shadow: 0 30px rgba(0,0,0,0.8);
 }
 
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  background-color: #584a3e;
+  color: #fff;
+}
+
 .footer-item p {
   border-bottom: 1px solid black;
 }
+
