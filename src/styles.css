@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
 @import url('~animate.css/animate.min');
 
 body, html, .main {
@@ -65,7 +66,7 @@ h1, h2, h3, h4, h5, h6  {
   border-radius: 8px;
 }
 
-.button-options {
+.button-options, .form_button {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -75,6 +76,26 @@ h1, h2, h3, h4, h5, h6  {
   background-color: #fbeec1;
   border: none;
   transition: 0.5s;
+}
+
+input {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  background-color: #eeeded;
+}
+
+.form_button {
+  border-radius: initial;
+  color: #fff;
+  background-color: rgb(91, 91, 239);
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.form_button:hover {
+  color: white;
+  background-color: rgba(91, 91, 239, 0.76);;
 }
 
 .header {

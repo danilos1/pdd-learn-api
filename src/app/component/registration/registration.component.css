@@ -2,25 +2,58 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /*background: linear-gradient(180deg, rgba(143,157,222,1) 0%, rgba(228,162,217,1) 100%);*/
   background-image: url("/assets/traffic_signs.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
-  color: white;
+  color: #fff;
+}
+
+.form label {
+  font-family: 'Andika', sans-serif;
+}
+
+input {
+  padding: 3px;
+  font-size: 18px;
+  font-family: 'Inconsolata', sans-serif;
+  margin-left: 8px;
 }
 
 .form {
-  font-family: 'Roboto Thin', sans-serif;
-  padding: 10px;
-  display: flex;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: bold;
   justify-content: center;
-  border: 12px solid #fff;
-  height: 45%;
-  width: 35%;
-  border-radius: 20px;
+  border-radius: 17px;
+  color: #282323;
+  background-color: #fff;
+}
+
+.form_item {
+  text-align: end;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+
+.form__content {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  padding: 26px;
 }
 
 .form__title {
-  font-weight: bold;
-  font-size: 35px;
+  text-align: center;
+  padding: 0 0 10px 10px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  font-size: 50px;
+  color: #eeeded;
+  background-color: #282323;
+  font-weight: bolder;
 }

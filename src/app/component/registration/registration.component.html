@@ -1,8 +1,65 @@
 <div class="main">
   <div class="form">
-     <div class="form__title">
-        Реєстрація
-     </div>
+    <div class="form__title">
+      Реєстрація
+    </div>
+    <div class="form__content">
+      <div class="form_item">
+        <div>
+          <label for="name">Як вас звати: </label>
+        </div>
+        <div>
+          <input type="text" id="name" placeholder="Введіть Ваше ім'я">
+          <input type="text" placeholder="Введіть Вашу фамілію">
+        </div>
+      </div>
 
+      <div class="form_item">
+        <div>
+          <label for="gender">Вкажіть ваш пол</label>
+        </div>
+        <div>
+          Чоловік<input type="radio" id="gender" name="gender">
+          Жінка<input type="radio" id="female" name="gender">
+        </div>
+      </div>
+
+      <div class="form_item">
+        <div>
+          <label for="userRole">Вкажіть вашу роль
+          </label>
+        </div>
+        <div>
+          <select id="userRole">
+            <option value="">Choose an option here</option>
+            <option value="INSTRUCTOR">Instructor</option>
+            <option value="STUDENT">Student</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form_item">
+        <div>
+          <label for="email">Email
+          </label>
+        </div>
+        <div>
+          <input type="email" id="email">
+        </div>
+      </div>
+
+      <div class="form_item">
+        <div>
+          <label for="password">Придумайте пароль
+          </label>
+        </div>
+        <div>
+          <input type="password" id="password">
+        </div>
+      </div>
+      <div style="align-self: center">
+        <button class="form_button">Зареєструватись</button>
+      </div>
+    </div>
   </div>
 </div>
