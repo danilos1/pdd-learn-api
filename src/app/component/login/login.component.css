@@ -39,6 +39,11 @@ input {
   margin-bottom: 22px;
 }
 
+.form_item input {
+  font-size: 20px;
+  margin-left: 80px;
+}
+
 
 .form__content {
   display: flex;
